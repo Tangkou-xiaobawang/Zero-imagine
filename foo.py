@@ -6,7 +6,7 @@ def on_press(key):
     print("press：{0}".format(key))
 
 def on_release(key):
-# oress esc quit
+# press esc quit
     if key == keyboard.Key.esc:
         return False
     else:
