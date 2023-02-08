@@ -2,12 +2,8 @@ from pynput import keyboard
 from pynput.keyboard import Listener, Key
 
 
-
-
-
 def on_press(key):
     print("press：{0}".format(key))
-    print(f'{key} :pushed') 
 
 def on_release(key):
 # oress esc quit
